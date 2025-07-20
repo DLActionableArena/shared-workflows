@@ -5,7 +5,7 @@ on:
 jobs:
   echo:
     name: Echo the message
-    uses: ./.github/actions/echo-message@main
+    uses: DLActionableArena/shared-workflows/.github/actions/echo-message@main
     with:
       name: "Hello from sample echo parent call !!"
       
