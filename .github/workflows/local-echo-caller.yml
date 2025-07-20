@@ -1,0 +1,11 @@
+name: Call Echo Reusable action
+on:
+  workflow_dispatch:
+
+jobs:
+  echo:
+    name: Echo the message
+    uses: ./.github/actions/echo-message
+    with:
+      name: "Hello from sample echo parent call !!"
+      
